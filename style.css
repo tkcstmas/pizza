@@ -14,4 +14,36 @@ header{
 }
 h2{
     color: white;
+    display: inline;
+
+}
+header ul{
+    display: inline;
+    
+}
+header li{
+    color: white;
+    list-style-type: none;
+}
+a{
+    color: white;
+
+}
+a :visited{
+    color: white;
+}
+a :hover{
+    color: white;
+
+}
+a :active{
+    color: white;
+}
+header a{
+    text-decoration: none;
+    float: right;
+    padding: 5px;
+    font-size: 20px;
+
+
 }
