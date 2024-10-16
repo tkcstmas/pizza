@@ -47,3 +47,22 @@ header a{
 
 
 }
+.box1{
+    background-color: #222222;
+    color: white;
+
+}
+.box2{
+    background-color: black;
+    color: white;
+}
+.box2 ul{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style-type: none;
+}
+.box2 li{
+    border: 1px solid white;
+    padding: 10px 50px;
+}
