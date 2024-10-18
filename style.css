@@ -50,19 +50,27 @@ header a{
 .box1{
     background-color: #222222;
     color: white;
+    padding: 60px;
 
 }
 .box2{
     background-color: black;
     color: white;
+    padding: 60px;
 }
 .box2 ul{
     display: flex;
     align-items: center;
     gap: 1rem;
     list-style-type: none;
+    justify-content: center;
 }
 .box2 li{
     border: 1px solid white;
     padding: 10px 50px;
+}
+.box3{
+    background-color: #222222;
+    color: white;
+    padding: 60px;
 }
