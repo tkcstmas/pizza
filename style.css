@@ -135,4 +135,11 @@ header a{
 .box4{
     background-color: black;
     color: white;
+    padding: 3rem;
+}
+footer{
+    background-color: black;
+}
+.vonalka{
+    color: #ccc;
 }
