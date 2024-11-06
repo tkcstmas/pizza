@@ -132,7 +132,7 @@ header a{
     justify-content: center;
     align-items: end;
 }
-.box4{
+#box4{
     background-color: black;
     color: white;
     padding: 3rem;
@@ -142,4 +142,35 @@ footer{
 }
 .vonalka{
     color: #ccc;
+}
+#elszosz{
+    padding: 0,2rem;
+}
+#masodiksz{
+    padding: 0,2rem;
+}
+#box4 h5{
+padding-bottom: 2rem;
+}
+#box4 ul{
+    padding: 0;
+    list-style-type: none;
+}
+#box4 ul li.nap{
+    margin-bottom: 0px;
+    margin-top: 5px;
+    color: #d4d4d4;
+}
+#box4 ul li.idopont{
+    margin-bottom: 0 ;
+    color: #d4d4d4;
+}
+#box4 ul li{
+    margin-bottom: 10px;
+}
+#box4 ul li hr{
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
