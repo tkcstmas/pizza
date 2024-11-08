@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 body{
     max-width: 100%;
     min-height: 100%;
@@ -86,7 +89,7 @@ header a{
     justify-content: center;
     align-items: end;
 }
-.marhapecsenye_kep{
+.marhapecsenye{
     background-image: url(img/steak.jpg);
     background-position: center;
     background-size: cover;
@@ -97,7 +100,7 @@ header a{
     justify-content: center;
     align-items: end;
 }
-.zoldsegsalata_kep{
+.undorito_kep{
     background-image: url(img/undorito.jpg);
     background-position: center;
     background-size: cover;
@@ -120,7 +123,7 @@ header a{
     justify-content: center;
     align-items: end;
 }
-.eloetel_kep{
+.leves_kep{
     background-image: url(img/leves.jpg);
     background-position: center;
     background-size: cover;
@@ -156,12 +159,12 @@ padding-bottom: 2rem;
     padding: 0;
     list-style-type: none;
 }
-#box4 ul li.nap{
+#box4 ul li .nap{
     margin-bottom: 0px;
     margin-top: 5px;
     color: #d4d4d4;
 }
-#box4 ul li.idopont{
+#box4 ul li .idopont{
     margin-bottom: 0 ;
     color: #d4d4d4;
 }
@@ -173,4 +176,42 @@ padding-bottom: 2rem;
     border-top: 1px solid #ccc;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+footer{
+    color: #d4d4d4;
+    font-size: small;
+}
+.ajanl{
+    font-family: Playfair Display;
+    color: #aaa;
+    font-size: 18px;
+}
+.tortenet{
+    font-family: Playfair Display;
+    color: #aaa;
+    font-size: 18px;
+}
+.osszhang{
+    font-family: Playfair Display;
+    color: #aaa; 
+}
+.box3 p{
+    font-style: italic;
+}
+@media only screen and (max-width: 1000px){
+    .pizza_kep{
+        height: 25rem;
+    }
+    .marhapecsenye{
+
+    }
+    .undorito_kep{
+
+    }
+    .pizza2_kep{
+
+    }
+    .leves_kep{
+
+    }
 }
