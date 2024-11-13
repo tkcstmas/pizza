@@ -94,7 +94,7 @@ header a{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 14rem;
     height: 25rem;
     display: flex;
     justify-content: center;
@@ -128,7 +128,7 @@ header a{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 14rem;
     height: 12rem;
     display: flex;
     justify-content: center;
@@ -199,57 +199,97 @@ footer{
 }
 .grid-container{
   display: grid;
-  grid-template-columns: repeat(12,1fr);
+  grid-template-columns: repeat(16,1fr);
   grid-template-rows: repeat(9,5vw);
-  grid-gap: 2rem;
+  grid-gap: 0rem 2rem;
 
 }
 .item1{
  grid-column-start: 3;
- grid-column-end: 9;
+ grid-column-end: 11;
  grid-row-start:1 ;
  grid-row-end:5 ; 
 }
 .item2{
-grid-column-start:7 ;
-grid-column-end:10 ;
+grid-column-start:11 ;
+grid-column-end:14 ;
 grid-row-start:1 ;
 grid-row-end:6 ;
 }
 
 .item3{
-grid-column-start:2 ;
-grid-column-end:5 ;
+grid-column-start:3 ;
+grid-column-end:7 ;
 grid-row-start:6 ;
 grid-row-end:8 ;
 }
 .item4{
-    grid-column-start:5 ;
-    grid-column-end:8 ;
+    grid-column-start:7 ;
+    grid-column-end:11 ;
     grid-row-start:6 ;
     grid-row-end:8 ;
 }
 
 .item5{
-    grid-column-start:8 ;
-    grid-column-end:11 ;
+    grid-column-start:11 ;
+    grid-column-end:13 ;
     grid-row-start:7 ;
     grid-row-end:9 ;
 }
-@media only screen and (max-width: 1000px){
-    .pizza_kep{
-        height: 25rem;
+@media only screen and (max-width: 1250px){
+    .grid-container{
+        grid-gap: 1rem 1.5rem;
     }
-    .marhapecsenye{
-
+}
+@media only screen and (max-width: 1100px){
+    .grid-container{
+        grid-gap: 1.2rem 1.5rem;
     }
-    .undorito_kep{
-
+}
+@media only screen and (max-width: 1050px){
+    .grid-container{
+        grid-gap: 1.4rem 1.5rem;
     }
-    .pizza2_kep{
-
+}
+@media only screen and (max-width: 1000px) { 
+    #box2_szoveg{
+        margin: 1rem 3rem;
     }
-    .leves_kep{
-
+    .grid-container{    
+        grid-template-columns: repeat(11, 1fr);
+        grid-template-rows: repeat(9, 5vw);
+        grid-gap: 1.5rem;
     }
+   
+    .item1{
+        grid-column-start: 2;
+        grid-column-end: 8;
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
+    .item2{
+        grid-column-start: 8;
+        grid-column-end:11 ;
+        grid-row-start: 1;
+        grid-row-end: 6;
+    }
+    .item3{
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 6;
+        grid-row-end: 8;
+    }
+    .item4{
+        grid-column-start: 5;
+        grid-column-end: 8;
+        grid-row-start: 6;
+        grid-row-end: 8;
+    }
+    .item5{
+        grid-column-start: 8;
+        grid-column-end: 11;
+        grid-row-start: 7;
+        grid-row-end: 9;
+    }
+ 
 }
