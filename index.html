@@ -12,16 +12,18 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12 col-xl-12 col-xxl-12">
-                <h2>PIZZÉRIA</h2>
-                
-                    <a href="">KEZDŐLAP</a>
-                        <a href="">/</a>
-                    <a href="">MENÜ</a>
-                    <a href="">/</a>
-                    <a href="">RÓLUNK</a>
-                    <a href="">/</a>
-                    <a href="">KAPCSOLAT</a>
-                
+                <div class="topnav">
+                    <a href="#home" class="active">Pizzéria</a>
+                    <div id="myLinks">
+                      <a href="#news">Kezdőlap</a>
+                      <a href="#contact">Menük</a>
+                      <a href="#about">Rólunk</a>
+                      <a href="#about">Kapcsolat</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                      <i class="fa fa-bars"></i>
+                    </a>
+                  </div>
                 </div>
             </div>
         </div>
@@ -49,9 +51,9 @@
                         <p class="ajanl" style="text-align: center;">Ajánlatunk</p>
                         <p style="text-align: center;">Itt kezdődhet a szöveged, és kezdheted is az írást.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <ul>
-                            <li>Pizza</li>
-                            <li>Menü</li>
-                            <li>Italok</li>
+                            <li>PIZZA</li>
+                            <li>MENÜ</li>
+                            <li>ITALOK</li>
                         </ul>
                     </div>
                 </div>
@@ -104,7 +106,7 @@
             <div class="container">
                 <div class="row text-light">
                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4" id="box4_szakasz1">
-                        <h4 style=" float:right">SZERETETTEL VÁRUNK</h4>
+                        <h4 id="box4_h4" style=" float:right">SZERETETTEL VÁRUNK</h4>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4" id="box4_szakasz2">
                         <h5>NYITVA</h5>
@@ -167,5 +169,15 @@
             </div>
         </div>
     </footer>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
 </body>
 </html>
