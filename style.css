@@ -5,7 +5,11 @@
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
 
-
+.box2_szoveg{
+    padding: 10px;
+    width: 55%;
+    margin: auto;
+}
 .josefin-sans{
     font-family: "Josefin Sans";
     font-size: 1.7rem;
@@ -15,10 +19,17 @@
     width: 50% !important;
 
 }
+
+.box4_jobbszoveg{
+    width: 80%;
+}
 .perjelszoveg{
     color: rgba(red, green, blue, alpha)
 }
-
+.jobboldal{
+    padding: 10px;
+    width: 60%;
+}
 
   body{
     max-width: 100%;
@@ -508,6 +519,10 @@ grid-row-end:8 ;
     }
 }
 @media only screen and (max-width: 762px){
+    .jobboldal{
+        padding: 10px;
+        width: 100%;
+    }
     .box2 ul{
         display: flex;
         flex-direction: column;
@@ -568,6 +583,13 @@ grid-row-end:8 ;
 }
 @media only screen and (max-width: 576px)
 {
+    .box2_szoveg{
+        width: 110%;
+    }
+    .jobboldal{
+        padding: 10px;
+        width: 100%;
+    }
     .box3{
         padding: 25px;
     }
@@ -643,6 +665,10 @@ grid-row-end:8 ;
 @media only screen and (max-width: 450px)
 {
 
+    .jobboldal{
+        padding: 10px;
+        width: 100%;
+    }
     .box2{
         padding: 0;
     }
@@ -668,6 +694,8 @@ grid-row-end:8 ;
     .box2_szoveg{
         padding: 15px;
         text-align: center;
+        margin: none;
+        width: 100%;
     }
     #box4{
         padding-left: 0px;
